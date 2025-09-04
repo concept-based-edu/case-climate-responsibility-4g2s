@@ -36,9 +36,21 @@
         .achievement-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:20px; }
         .achievement-subject { background:#fff; padding:20px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
         .achievement-subject h3 { font-size:1.1em; margin-bottom:12px; padding:8px 12px; border-radius:8px; display:inline-block; }
-        .subject-science h3 { background:#E3F2FD; color:#1976D2; }
-        .subject-ethics h3  { background:#FFF3E0; color:#F57C00; }
-        .subject-korean h3  { background:#E1BEE7; color:#4A148C; }
+        .subject-science h3 { background:#1976D2; color:#fff; }
+        .subject-ethics h3  { background:#F57C00; color:#fff; }
+        .subject-korean h3  { background:#7B1FA2; color:#fff; }
+        
+        /* 국어 박스 내부 텍스트 스타일 */
+        .subject-korean { background:#F3E5F5; }
+        .subject-korean .achievement-list li { 
+            color:#4A148C; 
+            border-left:3px solid #9C27B0; 
+        }
+        .subject-korean .achievement-code { 
+            background:#9C27B0; 
+            color:#fff; 
+        }
+        
         .achievement-list { list-style:none; }
         .achievement-list li {
             padding:8px 0; font-size:0.9em; color:#555; line-height:1.5;
