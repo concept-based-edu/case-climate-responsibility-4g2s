@@ -36,18 +36,32 @@
         .achievement-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:20px; }
         .achievement-subject { background:#fff; padding:20px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
         .achievement-subject h3 { font-size:1.1em; margin-bottom:12px; padding:8px 12px; border-radius:8px; display:inline-block; }
-        .subject-science h3 { background:#1976D2; color:#fff; }
-        .subject-ethics h3  { background:#F57C00; color:#fff; }
-        .subject-korean h3  { background:#7B1FA2; color:#fff; }
         
-        /* 국어 박스 내부 텍스트 스타일 */
-        .subject-korean { background:#F3E5F5; }
+        /* 과학 박스 스타일 */
+        .subject-science { background:#17A2B8; }
+        .subject-science h3 { background:#0D7A8C; color:#fff; }
+        .subject-science .achievement-list li { 
+            color:#fff; 
+            border-left:3px solid rgba(255,255,255,0.5); 
+        }
+        .subject-science .achievement-code { 
+            background:rgba(255,255,255,0.3); 
+            color:#fff; 
+        }
+        
+        /* 도덕 박스 스타일 */
+        .subject-ethics { background:#FFC107; }
+        .subject-ethics h3  { background:#E6AC00; color:#333; }
+        
+        /* 국어 박스 스타일 */
+        .subject-korean { background:#7B1FA2; }
+        .subject-korean h3  { background:#5E1580; color:#fff; }
         .subject-korean .achievement-list li { 
-            color:#4A148C; 
-            border-left:3px solid #9C27B0; 
+            color:#fff; 
+            border-left:3px solid rgba(255,255,255,0.5); 
         }
         .subject-korean .achievement-code { 
-            background:#9C27B0; 
+            background:rgba(255,255,255,0.3); 
             color:#fff; 
         }
         
